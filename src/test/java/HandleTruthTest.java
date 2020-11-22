@@ -6,8 +6,11 @@ import java.util.List;
 public class HandleTruthTest {
     @Test
     public void makeshiftTest() {
-        String test = "test if this works";
-        HandleTruth.wordCount(test);
+        List<String> input = getStringTestCases();
+
+        for(String actual : input){
+            HandleTruth.wordCount(actual);
+        }
     }
 
     private List<String> getStringTestCases(){
