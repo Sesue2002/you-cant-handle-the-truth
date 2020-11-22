@@ -19,7 +19,7 @@ public class HandleTruth {
             wordMap.put(word, 1);
         }
         for (Map.Entry<String, Integer> entry : wordMap.entrySet()) {
-            System.out.println(entry);
+            //System.out.println(entry);
         }
 
         // sort the map based on number of occurrences
@@ -33,7 +33,7 @@ public class HandleTruth {
         }
 
         for (Map.Entry<Integer, Set<String>> entry : sortedMap.entrySet()) {
-            System.out.println(entry);
+            //System.out.println(entry);
         }
     }
 }
